@@ -1,4 +1,4 @@
-package com.rommansabbir.androiduitestexample
+package com.rommansabbir.composeuitest.feature
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.rommansabbir.composeuitest.theme.AndroidUITestExampleTheme
 
-class MainActivity : ComponentActivity() {
+class ComposeTestActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
